@@ -1,0 +1,178 @@
+.SessaoContato{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+    justify-content: center;
+    overflow: hidden;
+
+    @media (max-width: 450px){
+        height: 300px;
+    }
+}
+
+.TextoTituloContato{
+    font-size: 50px;
+
+    @media (max-width: 1052px){
+        font-size: 30px;
+        color: aliceblue;
+    }
+
+    @media (max-width: 450px){
+        font-size: 25px;
+        color: aliceblue;
+    }
+
+
+}
+
+.TituloContato h2{
+    margin-right: 40px;
+
+    @media (max-width: 1052px){
+        font-size: 25px;
+        color: aliceblue;
+    }
+
+    @media (max-width: 450px){
+        font-size: 20px;
+        margin-right: 0px;
+    }
+}
+
+.Contato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.ContatoConteudo{
+    display: grid;
+    width: 60%;
+    grid-template-columns: 1fr 3fr;
+}
+.ImagemContato{
+    grid-template-areas: 1/2;
+    height:650px;
+    
+    
+}
+.FormasContato{
+    grid-template-areas: 2/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.ContatoTexto{
+    margin-left: 40px;
+    color: #2C2C6B;
+
+}
+
+.BotaoSessaoContato{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    width: 90%;
+    border-radius: 10px;
+    border-color: #333333;
+    background-color: rgb(17, 17, 17);
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+
+    @media (max-width: 1052px){
+        font-size: 25px !important;
+        background-color: rgba(255, 255, 255, 0);
+        border-width: 3px;
+        border-style: solid;
+        border-color: #ffffff;
+    }
+
+    @media (max-width: 450px){
+        width: 100%;
+    }
+}
+.BotaoSessaoContato:hover {
+    background-color: #333333;
+}
+
+.BotaoSessaoContato:hover .TextoBotaoSessaoContato {
+    color: aliceblue;
+
+    @media (max-width: 1052px){
+        color: #ffffff;
+    }
+
+}
+
+.TextoBotaoSessaoContato {
+    grid-template-areas: 2/2;
+    font-family: paragrafo;
+    color: #ffffff;
+    font-size: large;
+    transition: 0.5s;
+    display: flex;
+    justify-content: left;
+
+    @media (max-width: 1052px){
+        color: #ffffff;
+    }
+    @media (max-width: 450px){
+        font-size: 12px;
+        margin-left: 5px;
+    }
+}
+
+.coverImage{
+    @media (max-width: 1052px){
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        background-color: #3333339a;
+        width: 100%;
+        height: 550px;
+        border-radius: 20px;
+        z-index: -1;
+    }
+    @media (max-width: 450px){
+        
+    }
+
+}
+
+.SessaoContatoMidia {
+    grid-template-areas: 1/2;
+    height: 50px;
+    margin-left: 10px;
+
+    @media (max-width: 450px){
+        height: 30px;
+    }
+}
+
+.bannerContato{
+    @media (max-width: 1052px){
+        width: 100%;
+        position: absolute;
+        object-fit: cover;
+        height: 550px;
+        z-index: -2;
+    }
+    
+}
+
+.InformacoesContato{
+    padding: 35px;
+
+    @media (max-width: 450px){
+        padding: 25px;
+    }
+}

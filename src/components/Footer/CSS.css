@@ -1,0 +1,132 @@
+.Footer{
+    width: 100%;
+    background-color: #333333;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.FooterIcones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 15px;
+    cursor: pointer;
+
+    @media (max-width: 600px){
+        width: 50px;
+    }
+
+}
+
+
+.FooterIconne{
+    height: 30px;
+    
+}
+
+.LogoFooter {
+    height: 70px;
+    margin-left: 5%;
+
+    @media (max-width: 600px){
+        height: 50px;
+        margin-left: 30px;
+    }
+
+    @media (max-width: 450px){
+        height: 35px;
+        margin-left: 30px;
+    }
+}
+
+.Footerinformacoes {
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+
+    @media (max-width: 600px){
+        width: 100%;
+    }
+}
+
+.SessoesFooter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-left: 10px;
+    border-left: 0.25rem solid rgb(192, 192, 192);
+
+    @media (max-width: 600px){
+        margin-left: 50px;
+        font-size: 14px;
+    }
+    @media (max-width: 450px){
+        margin-left: 25px;
+        font-size: 12px;
+    }
+}
+
+a {
+    color: rgb(196, 195, 195);
+    font-family: titulo;
+    margin-bottom: 5px;
+}
+
+.FooterContatos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-left: 10px;
+    border-left: 0.25rem solid #c0c0c0;
+
+    @media (max-width: 600px){
+        margin-left: 50px; 
+    }
+    @media (max-width: 450px){
+        margin-left: 25px; 
+        font-size: 12px;
+    }
+}
+
+.SessaoFooterMidia{
+    height: 25px;
+    margin-right: 5px;
+    opacity: 0.5;
+}
+
+.FooterContatoTitulo{
+    margin-bottom: 5px;
+    color: #c0c0c0;
+    font-family: titulo;
+}
+
+.creditos{
+    width: 100%;
+    height: 50px;
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoCreditos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterTituloCreditos{
+    margin-bottom: 2px;
+    color: #c0c0c0;
+    font-family: titulo;
+    font-size: 15px;
+}
+
+.SessaoFooterAssinatura{
+    height: 25px;
+    margin-left: 15px;
+}

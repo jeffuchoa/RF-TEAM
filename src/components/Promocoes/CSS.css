@@ -1,0 +1,438 @@
+
+
+.Promocoes {
+    position: relative;
+    height: 700px;
+    width: 70%;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 600px){
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    @media (max-width: 450px){
+        width: 90%;
+        height: 500px;
+    }
+}
+
+.parcelas{
+    color: #ffffff;
+
+    @media (max-width: 450px) or (max-height:750px){
+        font-size: 11px;
+    }
+}
+
+.PromocoesLinha {
+    position: absolute;
+    margin-top: 50px;
+    height: 95%;
+    width: 75%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #00AFF0;
+    border-radius: 10px;
+    z-index: -1;
+
+    @media (max-width: 600px){
+       width: 100%;
+    }
+
+    @media (max-width: 450px){
+        width: 95%;
+        height: 95%;
+        border-width: 2px;
+     }
+}
+
+.PromocoesMes {
+    position: relative;
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width: 450px){
+        height: 495px;
+     }
+}
+
+.textoPromocoesSubtitulo{
+    margin: 0;
+    margin-left: 20px;
+
+    @media (max-width: 600px){
+        margin-left: 0px;
+    }
+}
+
+.Promocoes .precos {
+    position:static !important;
+    z-index: 3;
+    display: flex;
+    overflow-x:scroll;
+    justify-content: center;
+    align-items: center;
+}
+
+.InformacoesPromocoes{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+
+    @media (max-width: 790px){
+        align-items:end;
+        justify-content: center;
+        width: 300px;
+        margin-bottom: 20px;
+        background-color: #ffffff00;
+    }
+}
+
+.textoPromocoesMes{
+    font-size: 50px;
+    margin-left: 10px;
+    background-color: #ffffff;
+
+    @media (max-width: 1000px){
+        margin: 0;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #ffffff;
+    }
+
+    @media (max-width: 870px){
+        margin: 0;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #ffffff;
+    }
+
+    @media (max-width: 750px){
+        margin: 0;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #ffffff;
+    }
+
+    @media (max-width: 450px){
+        margin: 0;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #ffffff;
+    }
+    
+}
+
+.bannerPromocoes {
+    object-fit: cover;
+    overflow: hidden;
+    object-position: top right ;
+    background-color: #161616;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    grid-column: 2/2;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    bottom: 0;
+
+    @media (max-width: 450px){
+    }
+}
+
+.itemPreco {
+    min-width: 300px; 
+    height: 550px;
+    min-height: 550px; 
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border-width: 4px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-style: solid;
+    position: relative;
+    border-color: #00AFF0;
+    word-wrap: break-word;
+    flex-shrink: 0;
+
+    @media (max-width: 600px){
+        width: calc(300px / 1.5);
+        height: calc(550px / 1.2);
+        min-width: calc(300px / 1.3);
+        min-height: calc(550px / 1.2);
+    }
+
+    @media (max-width: 450px){
+        width: calc(300px / 1.8);
+        height: calc(550px / 1.5);
+        min-width: calc(300px / 1.6);
+        min-height: calc(550px / 1.5);
+        border-width: 3px;
+    }
+}
+
+
+.TempoPreco {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    
+}
+
+.TituloPreco{
+    color: #00AFF0;
+    font-size: larger;
+    font-size: 50px;
+    font-family: titulo;
+    margin: 0px;
+
+    @media (max-width: 600px){
+        font-size: 30px;
+    }
+}
+
+.SubtituloPreco {
+    color: #ffffff;
+    margin: 0;
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+    word-wrap: break-word;
+    text-align: center;
+   
+    @media (max-width: 600px){
+        font-size: 12px;
+    }
+
+    @media (max-width: 450px){
+        height: 20px;
+    }
+}
+
+.quadrado{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #00AFF0;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @media (max-width: 450px){
+        border-width: 3px;
+    }
+}
+
+.quadradoPreco{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.valorpreco{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.PorApenas{ 
+    font-family: titulo;
+    font-size: 30px;
+    margin: 0px;
+    color: #ffffff;
+
+    @media (max-width: 600px){
+        font-size: 20px;
+    }
+
+}
+
+.hora{
+    color: #ffffff;
+}
+
+.TextoPromocoesBanner2{
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #161616;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.PrecoPacote{
+    font-family: titulo;
+    font-size: 50px;
+    margin: 0px;
+    color: #ffffff;
+    grid-column:2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 600px){
+        font-size: 35px;
+    }
+
+    @media (max-width: 450px){
+        font-size: 35px;
+    }
+}
+
+.botaoPreco {
+    background-color: #ffffff;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    @media (max-width: 600px){
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+.botaoPrecoZap {
+    background-color: #58c90c;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    @media (max-width: 600px){
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.elementosbotaozap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoPrecoZap p{
+   color: #ffffff;
+   font-size: 15px;
+   margin-bottom: 0px;
+   margin-left: 5px;
+
+   @media (max-width: 600px){
+    font-size: 12px;
+    
+}
+
+}
+
+.botaozapimage{
+    @media (max-width: 600px){
+        height: 25px;
+    }
+}
+
+.textoBotaoPreco{
+    margin: 0;
+    color: #161616;
+    font-family: titulo;
+    font-size: 20px;
+
+    @media (max-width: 600px){
+        font-size: 15px;
+    }
+}
+
+.PrecoPacoteConjunto{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+
+    @media (max-width: 600px){
+        grid-template-columns: 2fr 6fr 1fr;
+    }
+}
+
+.PrecoPacoteSimbolo {
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    font-size: 30px;
+    background-color: #161616;
+    font-family: titulo;
+    grid-column:1/3;
+
+
+}
+
+.PrecoPacoteCentavos{
+    color: #ffffff;
+    font-family: titulo;
+    height: fit-content;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    background-color: #161616;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-column:3/3;
+    font-size: 30px;
+
+    @media (max-width: 600px){
+        font-size: 17px;
+    }
+}
+

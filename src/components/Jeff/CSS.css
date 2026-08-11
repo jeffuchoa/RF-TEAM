@@ -1,0 +1,379 @@
+.SessaoJeff {
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 75px;
+    margin-top: 75px;
+
+    @media (max-width: 1606px){
+        height: 600px;
+    }
+
+    @media (max-width: 1550px){
+        height: 400px;
+    }
+
+    @media (max-width: 1100px){
+        grid-template-columns: 1fr ;
+        height: 800px;
+    }
+
+    @media (max-width: 1000px){
+        height: 1100px;
+    }
+    @media (max-width: 600px){
+        height: 1500px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+}
+
+.backgroundJeff {
+    background-color: #333333;
+    width: 100%;
+    position: absolute;
+    height: 70%;
+    z-index: -1;
+}
+
+.MensagemJeff {
+    grid-column: 1/2;
+    margin-left: 10%;
+    border-radius: 10px;
+    transition: 0.5s;
+    overflow: hidden;
+
+    @media (max-width: 1606px){
+        margin-left: 10%;
+    }
+
+    @media (max-width: 1100px){
+        grid-column: 2/2;
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding: 40px;
+        width: 100%;
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: fit-content;
+        pointer-events: none;
+        left: 0;
+        /* background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.966)); */
+        background-color: #00AFF0;
+        color: #333333;
+    }
+
+    @media (max-width: 1000px){
+        grid-column: 2/2;
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding: 20px;
+        width: 100%;
+        width: 320px;
+        display: flex;
+    }
+
+    @media (max-width: 995px){
+        grid-column: 2/2;
+        position: absolute;
+        bottom: 50;
+        z-index: 9;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding: 20px;
+        width: 100%;
+        width: 320px;
+        display: flex;
+    }
+
+    @media (max-width: 720px){
+        position: relative;
+        bottom: 0;
+        z-index: 9;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        grid-row: 1/2;
+        padding: 0px;
+        grid-column: 1/1;
+        background-color: #1f1f1f;
+        color:aliceblue ;
+        display: flex;
+        align-self: self-end;
+        justify-self: end;
+    }
+    
+
+    
+}
+
+.item2.filtroDepois {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    width: 30%;
+    z-index: 2;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0, 0, 0, 0.651));
+    @media (max-width: 444px){
+      align-items: flex-start;
+      padding-top: 30px;
+      font-weight: bold;
+      justify-content: start;
+    }
+  }
+
+.filtrotextoMensagem {
+    @media (max-width: 1100px){
+        grid-column: 1/2;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        position: absolute;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 720px){
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        height: fit-content;
+        margin: auto;
+        position: relative;
+    }
+
+    @media (max-width: 450px){
+        height: 100%;
+        align-self: self-end;
+    }
+    
+}
+
+
+.MensagemJeff h1 {
+    color: aliceblue !important;
+
+    @media (max-width: 1606px){
+        font-size: 30px;
+     }
+ 
+     @media (max-width: 1100px){
+        color: #333333 !important;
+         
+     }
+     @media (max-width: 1080px){
+         font-size: 25px;
+         color: #333333 !important;
+     }
+
+     @media (max-width: 720px){
+        font-size: 40px;
+        color: #ffffff !important;
+        padding: 30px;
+        padding-bottom: 0px;
+    }
+    @media (max-width: 600px){
+        font-size: 30px;
+        color: #ffffff !important;
+        padding: 30px;
+        padding-bottom: 0px;
+    }
+    @media (max-width: 430px){
+        font-size: 25px;
+        color: #ffffff !important;
+        padding: 30px;
+        padding-bottom: 0px;
+    }
+}
+
+.MensagemJeff p {
+    color: aliceblue !important;
+
+    @media (max-width: 1606px){
+        font-size: 15px;
+     }
+
+    @media (max-width: 1100px){
+        
+    }
+    @media (max-width: 1080px){
+        font-size: 13px;
+        color: #333333 !important;
+    }
+    @media (max-width: 1080px){
+        font-size: 13px;
+        color: #ffffff !important;
+    }
+    @media (max-width: 720px){
+        font-size: 15px;
+        padding: 30px;
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+    @media (max-width: 600px){
+        font-size: 12px;
+        padding: 30px;
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+}
+
+.VideoBodyJeff {
+    height: 100% ;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    grid-column: 2/2;
+    position: relative;
+
+    @media (max-width: 1100px){
+        grid-column: 1/2;
+    }
+
+    @media (max-width: 1030px){
+        grid-column: 1/2;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 720px){
+        grid-column: 1/2;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        height: 1100px;
+        width: 90%;
+        margin: auto;
+        border-radius: 20px;
+        overflow: hidden;
+        gap: 20px;
+    }
+}
+
+.VideoBodyJeff .item2 {
+    transform: none !important;
+    width: 360px;
+    height: 100%;
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 1 !important;
+    filter: blur(0px) !important;
+    opacity: 1 !important;
+    position: static;
+    grid-column:2/2;
+    margin-left: 20px;
+
+    @media (max-width: 1606px){
+        width: 200px;
+        height: 400px;
+    }
+    
+    @media (max-width: 1100px){
+        width: 500px;
+        height: 100%;
+    }
+
+    @media (max-width: 1032px){
+        width: 200px;
+        height: 400px;
+        position: absolute;
+        grid-column:1/2;
+        left: 90%;
+    }
+
+    @media (max-width: 1000px){
+        width: 200px;
+        height: 400px;
+        position: absolute;
+        grid-column:1/2;
+        left: 70%;
+    }
+
+    @media (max-width: 720px){
+        width: 100%;
+        height: 80%;
+        position: absolute;
+        grid-row: 2/2;
+        left: 0;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-left: 0px;
+    }
+}
+
+.VideoBodyJeff .item2 .filtro .textoAntes{
+
+    @media (max-width: 1606px){
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    
+}
+
+.VideoBodyJeff .item2 .filtro .textoDepois{
+
+    @media (max-width: 1606px){
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    
+}
+
+video{
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.VideoBodyMidiaJeff {
+    height: 100% !important;
+    width: 80% !important ;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    position: static;
+    grid-column: 1/2;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+
+    @media (max-width: 720px){
+        font-size: 20px;
+        width: 100% !important;
+        object-fit: cover;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        grid-row: 1/2;
+        inset: 0;
+        height: 100%;
+        margin: auto;
+    }
+
+}
+
+.item2:hover, .item2:active .filtro{
+    opacity: 0;
+}
+
+.textoJeffPequeno{
+    text-align: justify;
+
+    @media (max-width: 1100px){
+        margin-bottom: 40px;
+    }
+}

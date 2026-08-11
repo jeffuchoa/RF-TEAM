@@ -1,0 +1,55 @@
+{
+    "valido":"Válido até Final do Ano",
+
+    "promocoes": [
+        {
+            "id": 1,
+            "tempo": "1 Mês",
+            "valor": 1800,
+            "valorCentavos": "00",
+            "descricao": "de personalizado",
+            "className": "",
+            "parcela":12,
+            "zap":true
+        }
+    ],
+    "precosFixos": [
+        {
+            "id": 1,
+            "tempo": "1 Mês",
+            "valor": 1800,
+            "valorCentavos": "00",
+            "descricao": " de personalizado",
+            "parcela":12,
+            "className": ""
+        },
+        {
+            "id": 1,
+            "tempo": "2 Meses",
+            "valor": 2500,
+            "valorCentavos": "00",
+            "descricao": "de personalizado",
+            "parcela":12,
+            "className": ""
+        },
+        {
+            "id": 2,
+            "tempo": "4 meses",
+            "valor": 3000,
+            "valorCentavos": "00",
+            "descricao": "de personalizado",
+            "parcela":12,
+            "className": ""
+        },
+        {
+            "id": 1,
+            "tempo": "6 meses",
+            "valor": 4500,
+            "valorCentavos": "00",
+            "descricao": "de personalizado",
+            "parcela":12,
+            "className": ""
+        }
+    ]
+   
+}

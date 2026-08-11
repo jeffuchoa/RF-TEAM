@@ -1,0 +1,64 @@
+.PrecosFixos {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 450px){
+        height: 490px;
+    }
+}
+
+.bannerPrecos {
+    object-fit: cover;
+    overflow: hidden;
+    object-position: top right ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    grid-column: 2/2;
+    position: absolute;
+    z-index: -1;
+}
+
+.precos {
+    position:static !important;
+    z-index: 3;
+    display: flex;
+    overflow-x:scroll;
+
+    @media (max-width: 600px){
+        width: 100%;
+    }
+}
+
+.TextoPrecosFixosTitulo{
+    color: aliceblue;
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+    font-size: 50px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-left: 20px;
+
+    @media (max-width: 600px){
+        font-size: 40px;
+    }
+
+    @media (max-width: 450px){
+        font-size: 30px;
+    }
+}
+
+.conteudoPrecosFixos {
+    
+
+    @media (max-width: 600px){
+        width: 100%;
+    }
+}
