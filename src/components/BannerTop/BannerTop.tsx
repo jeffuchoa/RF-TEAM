@@ -22,7 +22,6 @@ function BannerTop() {
           </div>
           <div className="PromocoesBanner">
             <div className="containerPromocoesBanner">
-              <h1 className="TextoPromocoesBanner TextoPromocoesBanner2">R$ 100,00 <br></br>a hora aula</h1>
               <div className="LinhaBanner">
                 <div className="sliderpromocoesbanner">
                   {promocoes.promocoes.map((promocao) => (

@@ -19,6 +19,7 @@ function PrecosFixos() {
                 valorCentavos={precoFixo.valorCentavos}
                 descricao={precoFixo.descricao}
                 parcela={precoFixo.parcela}
+                zap = {precoFixo.zap}
                 className=""
               />
             ))}

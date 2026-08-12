@@ -32,7 +32,6 @@ function ItemPromocao({ valor,valorCentavos,tempo,className,descricao,parcela,za
                 <p className='TituloPreco'>{tempo}</p>
                 <p className='SubtituloPreco'>{descricao ? descricao : "De Consultoria."} </p>
             </div>
-            <p className='hora'>Ou R$ 100 reais a hora aula</p>
             <div className="valorpreco">
                 <div className="quadrado"></div>
                 <div className="quadradoPreco">

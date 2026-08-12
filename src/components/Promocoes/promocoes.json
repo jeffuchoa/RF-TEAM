@@ -21,7 +21,8 @@
             "valorCentavos": "00",
             "descricao": " de personalizado",
             "parcela":12,
-            "className": ""
+            "className": "",
+            "zap":true
         },
         {
             "id": 1,
@@ -30,7 +31,8 @@
             "valorCentavos": "00",
             "descricao": "de personalizado",
             "parcela":12,
-            "className": ""
+            "className": "",
+            "zap":true
         },
         {
             "id": 2,
@@ -39,7 +41,8 @@
             "valorCentavos": "00",
             "descricao": "de personalizado",
             "parcela":12,
-            "className": ""
+            "className": "",
+            "zap":true
         },
         {
             "id": 1,
@@ -48,7 +51,8 @@
             "valorCentavos": "00",
             "descricao": "de personalizado",
             "parcela":12,
-            "className": ""
+            "className": "",
+            "zap":true
         }
     ]
    

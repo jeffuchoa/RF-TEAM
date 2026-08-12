@@ -20,6 +20,7 @@ function Promocoes() {
               descricao={promocao.descricao}
               className=""
               parcela={promocao.parcela}
+              zap = {promocao.zap}
             />
           ))}
         </div>

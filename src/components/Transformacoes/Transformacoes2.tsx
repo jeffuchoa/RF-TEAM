@@ -90,11 +90,21 @@ const Slider = () => {
           <img className="imageBotao" src={botoes} alt="my image" />
         </button>
         <div className="slider">
+
           <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
+     
+            <div style={{ touchAction: "pan-y" }}>
+              <ReactCompareSlider className="imageSlider"
+                itemOne={<ReactCompareSliderImage srcSet={Cliente11Depois} alt="Image one" />}
+                itemTwo={<ReactCompareSliderImage srcSet={Cliente11Antes} alt="Image two" />}
+              />
+
             </div>
+
+          </div>
+
+          <div className="item">
+     
             <div style={{ touchAction: "pan-y" }}>
               <ReactCompareSlider onlyHandleDraggable={false} className="imageSlider"
                 itemOne={<ReactCompareSliderImage srcSet={jeffDepois} alt="Image one" />}
@@ -104,10 +114,7 @@ const Slider = () => {
 
           </div>
           <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
-            </div>
+        
             <div style={{ touchAction: "pan-y" }}>
               <ReactCompareSlider onlyHandleDraggable={true} className="imageSlider"
                 itemOne={<ReactCompareSliderImage srcSet={Cliente2Depois} alt="Image one" />}
@@ -119,10 +126,7 @@ const Slider = () => {
 
           </div>
           <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
-            </div>
+     
             <div style={{ touchAction: "pan-y" }}>
               <ReactCompareSlider className="imageSlider"
                 itemOne={<ReactCompareSliderImage srcSet={Cliente3Depois} alt="Image one" />}
@@ -134,10 +138,7 @@ const Slider = () => {
           </div>
 
           <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
-            </div>
+          
             <div style={{ touchAction: "pan-y" }}>
               <ReactCompareSlider className="imageSlider"
                 itemOne={<ReactCompareSliderImage srcSet={Cliente4Depois} alt="Image one" />}
@@ -149,10 +150,7 @@ const Slider = () => {
           </div>
 
           <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
-            </div>
+          
             <div style={{ touchAction: "pan-y" }}>
               <ReactCompareSlider className="imageSlider"
                 itemOne={<ReactCompareSliderImage srcSet={Cliente5Depois} alt="Image one" />}
@@ -164,10 +162,7 @@ const Slider = () => {
           </div>
 
           <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
-            </div>
+           
             <div style={{ touchAction: "pan-y" }}>
               <ReactCompareSlider className="imageSlider"
                 itemOne={<ReactCompareSliderImage srcSet={Cliente6Depois} alt="Image one" />}
@@ -179,10 +174,7 @@ const Slider = () => {
           </div>
 
           <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
-            </div>
+         
             <div style={{ touchAction: "pan-y" }}>
               <ReactCompareSlider className="imageSlider"
                 itemOne={<ReactCompareSliderImage srcSet={Cliente7Depois} alt="Image one" />}
@@ -194,10 +186,7 @@ const Slider = () => {
           </div>
 
           <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
-            </div>
+         
             <div style={{ touchAction: "pan-y" }}>
               <ReactCompareSlider className="imageSlider"
                 itemOne={<ReactCompareSliderImage srcSet={Cliente8Depois} alt="Image one" />}
@@ -209,10 +198,7 @@ const Slider = () => {
           </div>
 
           <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
-            </div>
+        
             <div style={{ touchAction: "pan-y" }}>
 
               <ReactCompareSlider className="imageSlider"
@@ -224,10 +210,7 @@ const Slider = () => {
           </div>
 
           <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
-            </div>
+        
             <div style={{ touchAction: "pan-y" }}>
 
               <ReactCompareSlider className="imageSlider"
@@ -238,20 +221,7 @@ const Slider = () => {
 
           </div>
 
-          <div className="item">
-            <div className="filtro">
-              <div className="filtroAntes"> <p className='textoAntes'>Depois</p></div>
-              <div className="filtroDepois"> <p className='textoDepois'>Antes</p></div>
-            </div>
-            <div style={{ touchAction: "pan-y" }}>
-              <ReactCompareSlider className="imageSlider"
-                itemOne={<ReactCompareSliderImage srcSet={Cliente11Depois} alt="Image one" />}
-                itemTwo={<ReactCompareSliderImage srcSet={Cliente11Antes} alt="Image two" />}
-              />
-
-            </div>
-
-          </div>
+          
 
         </div>
 

@@ -159,6 +159,7 @@
 }
 
 .bannerContato{
+    height: 50vh;
     @media (max-width: 1052px){
         width: 100%;
         position: absolute;
@@ -171,6 +172,7 @@
 
 .InformacoesContato{
     padding: 35px;
+ 
 
     @media (max-width: 450px){
         padding: 25px;

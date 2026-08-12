@@ -21,11 +21,8 @@ createRoot(document.getElementById('root')!).render(
     <Header />
     <BannerTop />
     <SobreMin />
-    <Jeff />
     <Transformacoes />
-    <Promocoes />
     <PrecosFixos />
-    <Instagram />
     <Contato />
     <Footer />
   </StrictMode>,
